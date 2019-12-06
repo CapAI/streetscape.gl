@@ -111,7 +111,6 @@ export function getViewStates({viewState, trackedPosition, viewMode, offset}) {
 
     viewStates[name] = viewState;
   } else {
-    viewState = {...viewState, transitionDuration: 0};
     offset = {...offset};
 
     // Track car position & heading
